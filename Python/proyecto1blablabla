@@ -1,0 +1,8 @@
+nomb = input ("Bienvenido a Undead un juego donde tu eliges lo que pasa, inserta tu nombre paraa continuar : ")
+print ("Bienvenid@ " + nomb )
+con1 = input (" Un dia vas andando por la calle y ecuchas unos ruidos qu haces 1. Sales corriendo 2. vas a mirar que pasa ")
+
+if con1 == "1":
+    input ("Has salido corriendo, adonde vas ? a. a tu casa b. a tu colegio")
+else :
+    print ("Un hombre te ha mordido. No sobrebivirias un apocalipsis zombi :(")
